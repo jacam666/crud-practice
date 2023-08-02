@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  flex-direction: column;
+}
+.main-header {
+  font-family: 'montserrat', sans-serif;
+  color: whitesmoke;
+}
+
+.create-form label {
+  color: whitesmoke !important;
+  font-family: 'montserrat', sans-serif;
+  font-size: 12px !important;
+}
+.read-heading {
+  color: whitesmoke;
+  padding-top: 20px;
+  font-size: 1rem;
+
+}
+.update-heading {
+  color: whitesmoke;
+  margin: 40px;
+  font-size: 1rem;
+}
+.button {
+  background-color: aquamarine !important;
+  color: rgb(45, 42, 42) !important;
+}
